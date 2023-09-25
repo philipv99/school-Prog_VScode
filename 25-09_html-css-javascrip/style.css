@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,800;1,300;1,400&family=Teko:wght@300;400;500;600&display=swap');
+
+
+*{
+   font-family: 'Figtree', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Teko', sans-serif;
+   font-weight:bolder;
+}
+
+footer{
+   box-shadow: inset 0px -50px 100px -10px rgba(0, 0, 0, 0.236);
+}
+
+.bg-stars{
+   background-image: url(https://wallpapercave.com/wp/wp2554584.jpg);
+   background-repeat:no-repeat;
+   background-position: center ;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.w-shadow{
+   /* text-shadow: 20px 0px 0px #fff; */
+   filter: drop-shadow(0px 0px 70px #fff);
+   font-size: 120px;
+}
